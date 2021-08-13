@@ -1,0 +1,25 @@
+.top-banner-block {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 35rem;
+}
+
+.top-banner__img {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    width: 85rem;
+    img {
+        width: 100%;
+    }
+}
+
+.top-banner__descr {
+    max-width: 92rem;
+    .h1 {
+        margin-bottom: 0.75em;
+    }
+    p {
+        max-width: 73rem;
+    }
+}

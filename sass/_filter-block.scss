@@ -1,0 +1,62 @@
+.filter-block {
+    padding: 9rem 12rem;
+    background: url('../img/filter_bg.jpg') 0 0 no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 6rem;
+    .h2 {
+        color: #fff;
+        line-height: 1.3;
+        margin-bottom: 1.6em;
+        .icon {
+            width: .5em;
+            height: .3em;
+            -webkit-box-flex: 0;
+            -ms-flex: none;
+            flex: none;
+            margin-left: 2rem;
+        }
+        .city-link__text {
+            border-bottom: 1px solid currentColor;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+            &:hover {
+                border-bottom-color: transparent;
+            }
+        }
+    }
+}
+
+.filter-block__search {
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.seach-submit {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    transition: all .3s;
+    &:hover {
+        color: var(--red);
+    }
+    .icon {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+.filter-block__item {
+    width: 18%;
+}

@@ -1,0 +1,51 @@
+.place-features {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.place-feature__list {
+    margin: 0 -1.5rem;
+    &.show-all {
+        li {
+            &:nth-child(n + 7) {
+                display: block;
+            }
+        }
+    }
+    li {
+        width: 16.666%;
+        padding: 0 1.5rem;
+        margin-bottom: 3rem;
+        &:nth-child(n + 7) {
+            display: none;
+        }
+    }
+}
+
+.show-features {
+    text-align: right;
+    font-size: 1.8rem;
+    color: var(--grey);
+    &__btn {
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+        transition: all .3s;
+        &::after {
+            content: '';
+            width: .75em;
+            height: 0.5em;
+            background: url('../img/icons/select_arrow.svg') 0 0 no-repeat;
+            background-size: contain;
+            margin-left: 0.5em;
+        }
+        &:hover {
+            color: var(--red)
+        }
+        &.active {
+            &::after {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}

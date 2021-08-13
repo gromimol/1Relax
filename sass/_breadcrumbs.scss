@@ -1,0 +1,36 @@
+.breadcrumbs {
+    font-size: 16px;
+    padding: 1.5em 0 2.5em;
+    color: #6E6E6E;
+    li {
+        display: inline-block;
+        margin-bottom: .75em;
+        display: inline-flex;
+        align-items: center;
+        margin-right: 1em;
+        &::after {
+            content: '';
+            flex: none;
+            width: 8px;
+            height: 12px;
+            background: url('../img/icons/angle-right.svg') 0 0 no-repeat;
+            background-size: contain;
+            margin-left: 1em;
+        }
+        &:last-child {
+            margin-right: 0;
+            &::after {
+                display: none;
+            }
+            a {
+                pointer-events: none;
+                cursor: default;
+            }
+        }
+        a {
+            &:hover {
+                color: var(--red);
+            }
+        }
+    }
+}

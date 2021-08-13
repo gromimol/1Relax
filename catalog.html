@@ -1,0 +1,1494 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>1Relax Каталог</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <!-- Template Basic Images End -->
+
+    <meta name="theme-color" content="#000">
+    <!-- styles from https://1relax.ru/  -->
+    <link href="css/relax.css" type="text/css" data-template-style="true" rel="stylesheet">
+
+    <!-- range slider styles -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container flex align-center">
+                <div class="menu-burger">
+                    <div class="menu-burger__btn">
+                        <span class="icon burger">
+                            <svg>
+                                <use xlink:href="#svg-burger"></use>
+                            </svg>
+                        </span>
+                        <span class="icon close">
+                            <svg>
+                                <use xlink:href="#svg-close"></use>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="header-content flex justify-between align-center">
+                    <div class="header-content__left flex align-center">
+                        <a href="#" class="logo">1relax.ru</a>
+                        <select class="city-select hidden-mobile">
+                            <option value="">Екатеринбург</option>
+                            <option value="">Уфа</option>
+                            <option value="">Санкт-Петербург</option>
+                            <option value="">Новгород</option>
+                        </select>
+                    </div>
+                    <div class="header-content__right flex align-center">
+                        <a href="#" class="header-action">
+                            <span class="header-action__icon">
+                                <span class="icon">
+                                    <svg>
+                                        <use xlink:href="#svg-heart"></use>
+                                    </svg>
+                                </span>
+                            </span>
+                            <span class="header-action__text">Избранное</span>
+                        </a>
+                        <a href="#" class="header-action desctop">
+                            <span class="header-action__icon">
+                                <span class="icon">
+                                    <svg>
+                                        <use xlink:href="#svg-plus-in-circle"></use>
+                                    </svg>
+                                </span>
+                            </span>
+                            <span class="header-action__text">Добавить организацию</span>
+                        </a>
+                        <a href="#" class="header-action desctop">
+                            <span class="header-action__icon">
+                                <span class="icon">
+                                    <svg>
+                                        <use xlink:href="#svg-enter"></use>
+                                    </svg>
+                                </span>
+                            </span>
+                            <span class="header-action__text">Вход</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-block">
+                <select class="city-select mobile">
+                    <option value="">Екатеринбург</option>
+                    <option value="">Уфа</option>
+                    <option value="">Санкт-Петербург</option>
+                    <option value="">Новгород</option>
+                </select>
+
+                <ul class="menu">
+                    <li><a href="#">Эротический массаж</a></li>
+                    <li><a href="#">Стриптиз</a></li>
+                    <li><a href="#" class="active">Сауны/Бани</a></li>
+                    <li><a href="#">Ночные клубы</a></li>
+                    <li><a href="#">Общий массаж</a></li>
+                </ul>
+                <a href="#" class="menu-block__link">Контакты</a>
+                <a href="#" class="header-action tablet menu-block__link">
+                    <span class="header-action__icon">
+                        <span class="icon">
+                            <svg>
+                                <use xlink:href="#svg-plus-in-circle"></use>
+                            </svg>
+                        </span>
+                    </span>
+                    <span class="header-action__text">Добавить организацию</span>
+                </a>
+                <a href="#" class="header-action tablet menu-block__link">
+                    <span class="header-action__icon">
+                        <span class="icon">
+                            <svg>
+                                <use xlink:href="#svg-enter"></use>
+                            </svg>
+                        </span>
+                    </span>
+                    <span class="header-action__text">Вход</span>
+                </a>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#">Сауны и бани</a></li>
+                </ul>
+            </div>
+            <div class="main-service-block">
+                <div class="container">
+                    <div class="service-slider__arrows-block">
+                        <div class="service-slider__arrows"></div>
+                    </div>
+                    <div class="service-slider">
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Эротический массаж
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Стриптиз
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Сауны/Бани
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Ночные клюбы
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Общий массаж
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Массаж креветками
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Страшная подруга
+                            </span>
+                        </a>
+                        <a href="#" class="service-slider__item">
+                            <img src="img/photo-1.jpg" alt="">
+                            <span class="service-slider__item__title">
+                                Теща на дом
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="filter-block">
+                    <div class="h2 font-700">
+                        Сауны и Бани
+                        <a href="#" class="city-link">
+                            <span class="city-link__text">Екатеринбурге</span>
+                            <span class="icon">
+                                <svg>
+                                    <use xlink:href="#svg-angle-down"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="filter-block__form">
+                        <form action="#">
+                            <div class="filter-block__search">
+                                <input type="search" class="input input--lg no-border" placeholder="Поиск по названию или услуге">
+                                <button type="submit" class="seach-submit">
+                                    <span class="icon">
+                                        <svg>
+                                            <use xlink:href="#svg-search"></use>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="filter-block__options flex justify-between">
+                                <div class="filter-block__item">
+                                    <div id="slider-range"></div>
+                                    <div class="slider-range__text">
+                                        <span class="range-from"></span> -
+                                        <span class="range-to"></span> руб/час
+                                    </div>
+                                </div>
+                                <div class="filter-block__item">
+                                    <select class="select no-border">
+                                        <option value="">Тип парной</option>
+                                        <option value="">Русская</option>
+                                        <option value="">Финская</option>
+                                        <option value="">Римская</option>
+                                    </select>
+                                </div>
+                                <div class="filter-block__item">
+                                    <select class="select no-border">
+                                        <option value="">Аквазона</option>
+                                        <option value="">Лаунж</option>
+                                        <option value="">Музыка</option>
+                                        <option value="">Полотенце</option>
+                                    </select>
+                                </div>
+                                <div class="filter-block__item">
+                                    <select class="select no-border">
+                                        <option value="">Для отдыха</option>
+                                        <option value="">Лаунж</option>
+                                        <option value="">Музыка</option>
+                                        <option value="">Полотенце</option>
+                                    </select>
+                                </div>
+                                <div class="filter-block__item">
+                                    <select class="select no-border">
+                                        <option value="">Вместимость</option>
+                                        <option value="">4 чел</option>
+                                        <option value="">4 - 8 человек</option>
+                                        <option value="">от 10 человек</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="place-features">
+                    <form action="#">
+                        <ul class="place-feature__list flex flex-wrap">
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch1">
+                                    <label for="ch1">
+                                        Все бани и сауны
+                                        <span class="counter">324</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch2">
+                                    <label for="ch2">
+                                        С комнатой отдыха
+                                        <span class="counter">53</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch3">
+                                    <label for="ch3">
+                                        С бильярдом
+                                        <span class="counter">582</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch4">
+                                    <label for="ch4">
+                                        С парковкой
+                                        <span class="counter">901</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch5">
+                                    <label for="ch5">
+                                        С караоке
+                                        <span class="counter">36</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch6">
+                                    <label for="ch6">
+                                        С комнатой отдыха
+                                        <span class="counter">92</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch7">
+                                    <label for="ch7">
+                                        С комнатой отдыха
+                                        <span class="counter">53</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch8">
+                                    <label for="ch8">
+                                        С бильярдом
+                                        <span class="counter">582</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch9">
+                                    <label for="ch9">
+                                        С парковкой
+                                        <span class="counter">901</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch10">
+                                    <label for="ch10">
+                                        С караоке
+                                        <span class="counter">36</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch11">
+                                    <label for="ch11">
+                                        С комнатой отдыха
+                                        <span class="counter">92</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch12">
+                                    <label for="ch12">
+                                        С комнатой отдыха
+                                        <span class="counter">92</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch13">
+                                    <label for="ch13">
+                                        С комнатой отдыха
+                                        <span class="counter">53</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch14">
+                                    <label for="ch14">
+                                        С бильярдом
+                                        <span class="counter">582</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch15">
+                                    <label for="ch15">
+                                        С парковкой
+                                        <span class="counter">901</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch16">
+                                    <label for="ch16">
+                                        С караоке
+                                        <span class="counter">36</span>
+                                    </label>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="checkbox">
+                                    <input type="checkbox" id="ch17">
+                                    <label for="ch17">
+                                        С комнатой отдыха
+                                        <span class="counter">92</span>
+                                    </label>
+                                </div>
+                            </li>
+                        </ul>
+                    </form>
+                    <div class="show-features">
+                        <span class="show-features__btn">Показать</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="points-on-map flex">
+                <div class="points">
+                    <div class="points__content">
+                        <div class="point flex">
+                            <div class="point__slider">
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="point__descr">
+                                <div class="point__descr__top flex align-center justify-between">
+                                    <div class="h3">
+                                        Николаевские бани
+                                    </div>
+                                    <a href="#" class="add-to-favorite" title="Добавить в избранное">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="point__location flex align-center flex-wrap grey--dark">
+                                    <div class="point__address">Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                    </div>
+                                    <div class="point__location__option">
+                                        <span class="red">Метро: </span>Геологическая
+                                    </div>
+                                </div>
+                                <div class="point__description">
+                                    <p>
+                                        Устали от напряженных будней, суеты и спешки мегаполиса? Хочется восстановить баланс сил? Порадуйте себя приятным и одновременно полезным времяпрепровождением, посетите «Николаевские бани» на Кизеловской улице.
+                                    </p>
+                                </div>
+                                <ul class="point__features grey--dark">
+                                    <li>
+                                        <span class="red">Парная:</span> русская, русская на дровах
+                                    </li>
+                                    <li>
+                                        <span class="red">Банные услуги:</span> СПА-терапия, банные принадлежности, услуги банщика, массаж, выбор веников
+                                    </li>
+                                </ul>
+                                <div class="point__bottom flex align-center flex-wrap">
+                                    <div class="point__price">1500 ₽ / час</div>
+                                    <div class="point__raiting grey--dark flex align-center">
+                                        <span class="icon yellow">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow"><b>4.3</b></span>/5, 71 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="point flex">
+                            <div class="point__slider">
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="point__descr">
+                                <div class="point__descr__top flex align-center justify-between">
+                                    <div class="h3">
+                                        Николаевские бани
+                                    </div>
+                                    <a href="#" class="add-to-favorite active" title="Добавить в избранное">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="point__location flex align-center flex-wrap grey--dark">
+                                    <div class="point__address">Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                    </div>
+                                    <div class="point__location__option">
+                                        <span class="red">Метро: </span>Геологическая
+                                    </div>
+                                </div>
+                                <div class="point__description">
+                                    <p>
+                                        Устали от напряженных будней, суеты и спешки мегаполиса? Хочется восстановить баланс сил? Порадуйте себя приятным и одновременно полезным времяпрепровождением, посетите «Николаевские бани» на Кизеловской улице.
+                                    </p>
+                                </div>
+                                <ul class="point__features grey--dark">
+                                    <li>
+                                        <span class="red">Парная:</span> русская, русская на дровах
+                                    </li>
+                                    <li>
+                                        <span class="red">Банные услуги:</span> СПА-терапия, банные принадлежности, услуги банщика, массаж, выбор веников
+                                    </li>
+                                </ul>
+                                <div class="point__bottom flex align-center flex-wrap">
+                                    <div class="point__price">1500 ₽ / час</div>
+                                    <div class="point__raiting grey--dark flex align-center">
+                                        <span class="icon yellow">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow"><b>4.3</b></span>/5, 71 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="point flex">
+                            <div class="point__slider">
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="point__descr">
+                                <div class="point__descr__top flex align-center justify-between">
+                                    <div class="h3">
+                                        Николаевские бани
+                                    </div>
+                                    <a href="#" class="add-to-favorite" title="Добавить в избранное">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="point__location flex align-center flex-wrap grey--dark">
+                                    <div class="point__address">Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                    </div>
+                                    <div class="point__location__option">
+                                        <span class="red">Метро: </span>Геологическая
+                                    </div>
+                                </div>
+                                <div class="point__description">
+                                    <p>
+                                        Устали от напряженных будней, суеты и спешки мегаполиса? Хочется восстановить баланс сил? Порадуйте себя приятным и одновременно полезным времяпрепровождением, посетите «Николаевские бани» на Кизеловской улице.
+                                    </p>
+                                </div>
+                                <ul class="point__features grey--dark">
+                                    <li>
+                                        <span class="red">Парная:</span> русская, русская на дровах
+                                    </li>
+                                    <li>
+                                        <span class="red">Банные услуги:</span> СПА-терапия, банные принадлежности, услуги банщика, массаж, выбор веников
+                                    </li>
+                                </ul>
+                                <div class="point__bottom flex align-center flex-wrap">
+                                    <div class="point__price">1500 ₽ / час</div>
+                                    <div class="point__raiting grey--dark flex align-center">
+                                        <span class="icon yellow">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow"><b>4.3</b></span>/5, 71 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="point flex">
+                            <div class="point__slider">
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="point__descr">
+                                <div class="point__descr__top flex align-center justify-between">
+                                    <div class="h3">
+                                        Николаевские бани
+                                    </div>
+                                    <a href="#" class="add-to-favorite" title="Добавить в избранное">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="point__location flex align-center flex-wrap grey--dark">
+                                    <div class="point__address">Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                    </div>
+                                    <div class="point__location__option">
+                                        <span class="red">Метро: </span>Геологическая
+                                    </div>
+                                </div>
+                                <div class="point__description">
+                                    <p>
+                                        Устали от напряженных будней, суеты и спешки мегаполиса? Хочется восстановить баланс сил? Порадуйте себя приятным и одновременно полезным времяпрепровождением, посетите «Николаевские бани» на Кизеловской улице.
+                                    </p>
+                                </div>
+                                <ul class="point__features grey--dark">
+                                    <li>
+                                        <span class="red">Парная:</span> русская, русская на дровах
+                                    </li>
+                                    <li>
+                                        <span class="red">Банные услуги:</span> СПА-терапия, банные принадлежности, услуги банщика, массаж, выбор веников
+                                    </li>
+                                </ul>
+                                <div class="point__bottom flex align-center flex-wrap">
+                                    <div class="point__price">1500 ₽ / час</div>
+                                    <div class="point__raiting grey--dark flex align-center">
+                                        <span class="icon yellow">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow"><b>4.3</b></span>/5, 71 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="point flex">
+                            <div class="point__slider">
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                                <div class="point__slide">
+                                    <img src="img/photo-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="point__descr">
+                                <div class="point__descr__top flex align-center justify-between">
+                                    <div class="h3">
+                                        Николаевские бани
+                                    </div>
+                                    <a href="#" class="add-to-favorite" title="Добавить в избранное">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="point__location flex align-center flex-wrap grey--dark">
+                                    <div class="point__address">Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                    </div>
+                                    <div class="point__location__option">
+                                        <span class="red">Метро: </span>Геологическая
+                                    </div>
+                                </div>
+                                <div class="point__description">
+                                    <p>
+                                        Устали от напряженных будней, суеты и спешки мегаполиса? Хочется восстановить баланс сил? Порадуйте себя приятным и одновременно полезным времяпрепровождением, посетите «Николаевские бани» на Кизеловской улице.
+                                    </p>
+                                </div>
+                                <ul class="point__features grey--dark">
+                                    <li>
+                                        <span class="red">Парная:</span> русская, русская на дровах
+                                    </li>
+                                    <li>
+                                        <span class="red">Банные услуги:</span> СПА-терапия, банные принадлежности, услуги банщика, массаж, выбор веников
+                                    </li>
+                                </ul>
+                                <div class="point__bottom flex align-center flex-wrap">
+                                    <div class="point__price">1500 ₽ / час</div>
+                                    <div class="point__raiting grey--dark flex align-center">
+                                        <span class="icon yellow">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow"><b>4.3</b></span>/5, 71 отзывов
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination-block flex align-center">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" class="prev-page">
+                                    <span class="icon">
+                                        <svg>
+                                            <use xlink:href="#svg-angle-left"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                            <li><a href="#" class="active"><span> 1</span></a></li>
+                            <li><a href="#"><span>2</span></a></li>
+                            <li><a href="#"><span>3</span></a></li>
+                            <li><a href="#"><span>4</span></a></li>
+                            <li><a href="#"><span>5</span></a></li>
+                            <li>...</li>
+                            <li><a href="#"><span>7</span></a></li>
+                            <li>
+                                <a href="#" class="next-page">
+                                    <span class="icon">
+                                        <svg>
+                                            <use xlink:href="#svg-angle-right"></use>
+                                        </svg>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pagination__total">
+                            112 объектов найдено
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294811.5171112707!2d55.74094331104818!3d54.741022015215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d93a259216bce1%3A0xaceec0921eda92cc!2z0KPRhNCwLCDQoNC10YHQvy4g0JHQsNGI0LrQvtGA0YLQvtGB0YLQsNC9LCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2snl!4v1628003891711!5m2!1sru!2snl"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div class="related">
+                <div class="container">
+                    <div class="related__top flex align-center justify-between">
+                        <div class="h2 font-700">Просмотренные</div>
+                        <div class="related__arrows" id="related__arrows-1"></div>
+                    </div>
+                    <div class="related-slider">
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский, Екатеринбург,
+                                            Кизеловская улица, 18 Район Верх-Исетский, Екатеринбург, Кизеловская улица,
+                                            18 Район Верх-Исетский, Екатеринбург, Кизеловская улица, 18 Район
+                                            Верх-Исетский
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский, Екатеринбург,
+                                            Кизеловская улица, 18 Район Верх-Исетский,
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="related">
+                <div class="container">
+                    <div class="related__top flex align-center justify-between">
+                        <div class="h2 font-700">Акции и скидки</div>
+                        <div class="related__arrows" id="related__arrows-1"></div>
+                    </div>
+                    <div class="related-slider">
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский, Екатеринбург,
+                                            Кизеловская улица, 18 Район Верх-Исетский, Екатеринбург, Кизеловская улица,
+                                            18 Район Верх-Исетский, Екатеринбург, Кизеловская улица, 18 Район
+                                            Верх-Исетский
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский, Екатеринбург,
+                                            Кизеловская улица, 18 Район Верх-Исетский,
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="related-slide">
+                            <div class="related-slide__content">
+                                <div class="related-slide__img">
+                                    <img src="img/photo-1.jpg" alt="">
+                                    <span class="add-to-favorite">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-heart"></use>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="related-slide__descr">
+                                    <a href="#" class="h3">Николаевские бани</a>
+                                    <p>
+                                        <a href="#">
+                                            Екатеринбург, Кизеловская улица, 18 Район Верх-Исетский
+                                        </a>
+                                    </p>
+                                    <div class="related-slide__raiting">
+                                        <span class="icon">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="yellow">4.3</span>/5, 71 отзывов
+                                    </div>
+                                    <div class="related-slide__price">
+                                        <div class="old-price">1800₽</div>
+                                        <div class="current-price">1500 ₽ / час</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="reviews">
+                <div class="container">
+                    <div class="h2">
+                        <b>
+                            Отзывы о местах и услугах
+                        </b>
+                    </div>
+                    <div class="reviews-block flex flex-wrap">
+                        <div class="reviews__item">
+                            <div class="reviews__content">
+                                <div class="avatar">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="raiting">
+                                    <div class="stars-raiting flex">
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon empty-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="autor-name">
+                                    Виктор Владимирович
+                                </div>
+                                <div class="author-date grey">
+                                    24 мая 2021 в 16:48
+                                </div>
+                                <div class="review-body">
+                                    <p>
+                                        Отдыхали мужской компанией в коттедже в феврале. Парная просто класс! Впервые встречаю такую в Сочи. Обслуживание на высшем уровне. все принесут, покажут, расскажут. Заказали еду в кафе. Они только открылись. Шашлык просто бомба. Все принесли прям в коттедж,
+                                        накрыли стол. И даже пиво открыли))) Забыли телефон, на следующий день администратор сама позвонила и сообщила)))Мы даже не заметили.
+                                    </p>
+                                </div>
+                                <a href="#" class="review-link">
+                                    Банное подворье Жаровъ
+                                </a>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__content">
+                                <div class="avatar">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="raiting">
+                                    <div class="stars-raiting flex">
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon empty-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon empty-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="autor-name">
+                                    Бахтеев Наиль Шакирович
+                                </div>
+                                <div class="author-date grey">
+                                    24 мая 2021 в 16:48
+                                </div>
+                                <div class="review-body">
+                                    <p>
+                                        Отличная большая парная,парился с дубовым и эвкалиптовым веником.Отдыхали с детьми.Понравилось и взрослым и детям.Что именно понравилось:уютно и чисто как дома.Для детей беседка и игровая площадка.Русская баня на дровах это большой плюс лично для меня,так
+                                        с детства парился только в бане на дровах. Отдельно хочется отметить чистый большой бассейн.Мангал на котором можно много чего вкусного приготовить,но если не хотите готовить,то в "Вотчине' есть своё кафе где готовят
+                                        Русскую и Кавказкую кухню. Обязательно приедем сюда в следующий раз!) P.S прекрасный вид на реку со второго этажа!
+                                    </p>
+                                </div>
+                                <a href="#" class="review-link">
+                                    Николаевские бани
+                                </a>
+                            </div>
+                        </div>
+                        <div class="reviews__item">
+                            <div class="reviews__content">
+                                <div class="avatar">
+                                    <img src="img/avatar.jpg" alt="">
+                                </div>
+                                <div class="raiting">
+                                    <div class="stars-raiting flex">
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon empty-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="autor-name">
+                                    Виктория
+                                </div>
+                                <div class="author-date grey">
+                                    24 мая 2021 в 16:48
+                                </div>
+                                <div class="review-body">
+                                    <p>
+                                        Отличное место! Идеально подходит для семейного отдыха
+                                    </p>
+                                </div>
+                                <a href="#" class="review-link">
+                                    Банное подворье Жаровъ
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seo-text">
+                <div class="container">
+                    <p>
+                        Стремительный и напряженный ритм больших городов очень выматывает, в результате мы теряем жизненную энергию, что ухудшает работоспособность и может стать причиной многих заболеваний. Эротический массаж – лучший способ расслабиться, забыть о всех волнующих
+                        проблемах и насладиться самыми яркими красками жизни!
+                    </p>
+                    <h3>
+                        Высшее наслаждение для всех
+                    </h3>
+                    <p>
+                        Медициной уже давно доказаны положительные свойства тактильного воздействия на тело человека. Но, как показывает практика, многие из нас записываются к специалисту только по назначению врача. А ведь регулярно снимая стрессы и напряжения тела можно и не
+                        доводить себя до ухудшения состояния. Профессиональный частный массаж – пикантный, красивый, чувственный и одновременно оздоравливающий сеанс. Только он способен полностью расслабить как тело, так и отвлечь мысли от быта и заставить
+                        сосредоточиться на себе, своих чувствах, ощущениях.
+                    </p>
+                    <p>
+                        Особенностью эро массажа является сексуальная форма мастеров, иногда девушки могут быть полностью обнажены. Во время процедуры они используют не только руки, но и грудь, губы, ягодицы и прочие части своего идеального тела. Страстные поцелую, эро дыхание,
+                        ласки самых чувствительных зон доводят до вершины блаженства. Здесь Вы поймете, что все Ваше тело превращается в сплошную эрогенную зону.
+                    </p>
+                    <p>
+                        Эротический массаж СПб пользуется популярностью не только у представителей сильного пола, но и у нежных девушек. Ведь столь пикантная процедура раскрывает сексуальность, всего за несколько сеансов, Вы поймете, что значит быть по-настоящему женственной,
+                        чувственной и сексапильной. А посетив сеанс VIP массажа без интима со своим любимым человеком, сделаете для него самый лучший подарок. Кроме того, совместный поход к специалисту внесет новые ощущения в семейную жизнь, разожжет
+                        затухающие чувства. После того, как квалифицированный специалист полностью расслабит Ваше тело, возбудит желание, а все самые потайные сексуальные фантазии разыграются, Вы всегда сможете остаться наедине в уютной комнате со своей
+                        половинкой. Такой сексуальный опыт незабываем, подарит новые эмоции, ощущения, и Вы узнаете, что такое вершина блаженства.
+                    </p>
+                    <p>
+                        В Санкт Петербурге массаж пользуется огромной популярностью, не только у коренных жителей, но и у гостей города. Чистые салоны, в которых царит атмосфера чувственности, нежности желания, ухоженные сексуальные сотрудницы, приглушенная музыка и освещение.
+                        Только зайдя в это место, уже забываешь о всех проблемах и невзгодах, а что уж говорить о чувствах, которые бурлят во время проведения сеанса! Особенно такие сеансы очень полезны для мужчин, кроме душевного умиротворения и неземного
+                        наслаждения они положительно сказываются на потенции.
+                    </p>
+                    <p>
+                        На нашем сайте собраны все самые лучшие салоны эро массажа в Питере. Здесь Вы можете ознакомиться с фотографиями массажисток и обстановки, узнать подробную схему проезда, телефоны, адреса. А если трудно определиться с выбором почитайте отзывы других клиентов.
+                        Забудьте о скучной и утомительной реальности, погрузитесь с головой в чувственный мир нежности и эротики!
+                    </p>
+                </div>
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="container">
+                    <a href="#" class="logo">1relax.ru</a>
+                    <div class="footer__body flex justify-between">
+                        <div class="footer__item">
+                            <div class="copyright">
+                                © 2012-2021 Киров. Все права защищены. Копирование информации размещенной на сайте возможно с указанием источника.
+                            </div>
+                            <div class="footer__contact">
+                                <div class="footer__contact__title">
+                                    По всем вопросам:
+                                </div>
+                                <a href="mailto:admin@1relax.ru">admin@1relax.ru</a>
+                            </div>
+                            <div class="footer__contact">
+                                <div class="footer__contact__title">
+                                    Telegram канал
+                                </div>
+                                <a href="#">@1relax.ru</a>
+                            </div>
+                        </div>
+                        <div class="footer__item">
+                            <ul class="footer__menu">
+                                <li><a href="#">Сауны и бани</a></li>
+                                <li><a href="#">Стриптиз</a></li>
+                                <li><a href="#">Эротический массаж</a></li>
+                                <li><a href="#">Ночные клубы</a></li>
+                                <li><a href="#">Общий массаж</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item flex flex-direction-column justify-between">
+                            <ul class="footer__menu">
+                                <li><a href="#"> О нас</a></li>
+                                <li><a href="#">Каталог салонов</a></li>
+                                <li><a href="#">Акции</a></li>
+                            </ul>
+                            <div class="yandex-widget">
+                                <img src="img/yandex_widget.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="footer__item flex flex-direction-column justify-between">
+                            <ul class="footer__menu">
+                                <li><a href="#">Статьи</a></li>
+                                <li><a href="#">Реклама на сайте</a></li>
+                                <li><a href="#">Публичная оферта </a></li>
+                            </ul>
+                            <div class="total-raiting">
+                                <div class="total-raiting__stars flex align-center">
+                                    <span class="total-raiting__title">Ваша оценка</span>
+                                    <div class="stars-raiting flex">
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon full-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="icon empty-star">
+                                            <svg>
+                                                <use xlink:href="#svg-star"></use>
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="total-raiting__text">
+                                    <span class="yellow"><b>4.96</b></span>/5 рейтинг 313 голосов
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="container">
+                    БУДЬ СУЛТАНОМ В RICHSPA! <a href="tel:+79178000275">+(7917) 800 02 75</a>
+                </div>
+            </div>
+            <div class="svg-sprite">
+                <!-- svg-sprite -->
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <symbol viewBox="0 0 8 14" id="svg-angle-left">
+                        <path
+                            d="M0.379006 6.61588L6.85442 0.158378C7.06658 -0.0530705 7.41007 -0.0527151 7.62187 0.159472C7.83351 0.371631 7.83296 0.715313 7.62078 0.926926L1.5308 7.00009L7.621 13.0732C7.83316 13.2849 7.8337 13.6283 7.62209 13.8405C7.51591 13.9469 7.37682 14.0001 7.23772 14.0001C7.09898 14.0001 6.96043 13.9472 6.85444 13.8416L0.379006 7.38426C0.276823 7.2826 0.219483 7.14424 0.219483 7.00009C0.219483 6.85593 0.276987 6.71774 0.379006 6.61588Z"
+                            fill="" />
+                    </symbol>
+                    <symbol viewBox="0 0 8 12" id="svg-angle-right">
+                        <path
+                            d="M7.10347 5.67082L1.55312 0.135822C1.37127 -0.0454193 1.07685 -0.0451147 0.895301 0.13676C0.713895 0.31861 0.714364 0.613195 0.896238 0.794577L6.11622 6.00014L0.896051 11.2057C0.7142 11.3871 0.713731 11.6815 0.895113 11.8634C0.98612 11.9545 1.10535 12.0001 1.22457 12.0001C1.34349 12.0001 1.46225 11.9548 1.55309 11.8643L7.10347 6.32944C7.19106 6.2423 7.2402 6.1237 7.2402 6.00014C7.2402 5.87658 7.19092 5.75813 7.10347 5.67082Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 11 7" id="svg-angle-top">
+                        <path
+                            d="M5.19814 0.65491L0.124392 5.74273C-0.0417463 5.90943 -0.041467 6.17932 0.125251 6.34573C0.291948 6.51202 0.561984 6.51159 0.728251 6.34487L5.50002 1.55989L10.2718 6.34504C10.4381 6.51174 10.7079 6.51217 10.8746 6.3459C10.9582 6.26248 11 6.15319 11 6.0439C11 5.93489 10.9585 5.82603 10.8755 5.74275L5.80187 0.65491C5.72199 0.574623 5.61328 0.52957 5.50002 0.52957C5.38675 0.52957 5.27817 0.574752 5.19814 0.65491Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 38 20" id="svg-arrow-left">
+                        <path
+                            d="M0.435371 11.0507C0.435817 11.0512 0.436187 11.0517 0.436706 11.0521L8.19286 18.7709C8.77392 19.3491 9.71375 19.347 10.2921 18.7658C10.8705 18.1848 10.8682 17.2449 10.2872 16.6666L5.07968 11.4844L36.5156 11.4844C37.3354 11.4844 38 10.8198 38 10C38 9.18019 37.3354 8.51564 36.5156 8.51564L5.07976 8.51564L10.2871 3.33339C10.8682 2.75508 10.8704 1.81525 10.2921 1.23419C9.71368 0.652981 8.77377 0.650979 8.19279 1.22914L0.436633 8.94789C0.436187 8.94834 0.435813 8.94885 0.435294 8.9493C-0.146062 9.52954 -0.144204 10.4724 0.435371 11.0507Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 38 20" fill="none" id="svg-arrow-right">
+                        <path
+                            d="M37.5646 8.94927C37.5642 8.94883 37.5638 8.94831 37.5633 8.94786L29.8071 1.22912C29.2261 0.650882 28.2862 0.653034 27.7079 1.23417C27.1296 1.81522 27.1318 2.75506 27.7128 3.33337L32.9203 8.51561H1.48438C0.664555 8.51561 0 9.18017 0 9.99999C0 10.8198 0.664555 11.4844 1.48438 11.4844H32.9202L27.7129 16.6666C27.1319 17.2449 27.1296 18.1848 27.7079 18.7658C28.2863 19.347 29.2262 19.349 29.8072 18.7709L37.5634 11.0521C37.5638 11.0517 37.5642 11.0511 37.5647 11.0507C38.1461 10.4705 38.1442 9.52759 37.5646 8.94927Z"
+                            fill="currentColor" />
+                    </symbol>
+                    <symbol viewBox="0 0 34 34" id="svg-check-in-triangle">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M34 16.9997L30.151 12.7264L30.7537 7.00547L25.1255 5.81395L22.2546 0.82666L17 3.175L11.7455 0.82666L8.87454 5.81395L3.24638 7.00547L3.84896 12.7264L0 16.9997L3.84889 21.2731L3.24631 26.994L8.87447 28.1855L11.7454 33.1728L17 30.8244L22.2545 33.1728L25.1255 28.1855L30.7536 26.994L30.151 21.2731L34 16.9997ZM24.1268 13.2774L15.5935 22.8378L9.66375 16.908L11.0741 15.4976L15.5111 19.9346L22.6388 11.9492L24.1268 13.2774Z"
+                                fill="currentcolor" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="34" height="34" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </symbol>
+                    <symbol viewBox="0 0 28 27" id="svg-clock">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M18.9336 15.8841L15.1691 13.0607V7.30939C15.1691 6.73111 14.7016 6.26367 14.1234 6.26367C13.5451 6.26367 13.0776 6.73111 13.0776 7.30939V13.5836C13.0776 13.913 13.2324 14.2236 13.4959 14.4202L17.6787 17.5573C17.8669 17.6985 18.0866 17.7665 18.3051 17.7665C18.624 17.7665 18.9378 17.6232 19.1427 17.3471C19.49 16.8859 19.3959 16.2303 18.9336 15.8841Z"
+                                fill="currentcolor" />
+                            <path
+                                d="M14.1235 0C6.67918 0 0.623535 6.05565 0.623535 13.5C0.623535 20.9444 6.67918 27 14.1235 27C21.5679 27 27.6235 20.9444 27.6235 13.5C27.6235 6.05565 21.5679 0 14.1235 0ZM14.1235 24.9086C7.83364 24.9086 2.71493 19.7899 2.71493 13.5C2.71493 7.21011 7.83364 2.09139 14.1235 2.09139C20.4145 2.09139 25.5321 7.21011 25.5321 13.5C25.5321 19.7899 20.4134 24.9086 14.1235 24.9086Z"
+                                fill="currentcolor" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="27" height="27" fill="white" transform="translate(0.623535)" />
+                            </clipPath>
+                        </defs>
+                    </symbol>
+                    <symbol viewBox="0 0 28 22" id="svg-close">
+                        <rect x="3.03906" y="19.7988" width="28" height="3" rx="1.5"
+                            transform="rotate(-45 3.03906 19.7988)" fill="currentcolor" />
+                        <rect x="5.12109" width="28" height="3" rx="1.5" transform="rotate(45 5.12109 0)"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 28 21" fill="none" id="svg-burger">
+                        <rect width="28" height="3" rx="1.5" fill="currentcolor" />
+                        <rect y="9" width="28" height="3" rx="1.5" fill="currentcolor" />
+                        <rect y="18" width="28" height="3" rx="1.5" fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 14 14" fill="none" id="svg-enter">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M9 2H12V12H9V14H13H14V13V1V0H13H9V2ZM9.2 6.3L5.7 2.8L4.3 4.2L6.1 6H0V8H6.1L4.3 9.8L5.7 11.2L9.2 7.7L9.9 7L9.2 6.3Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 22 20" fill="none" id="svg-filter">
+                        <g clip-path="url(#clip0)">
+                            <path d="M0 4H22" stroke="currentcolor" stroke-width="2" />
+                            <path d="M0 16H22" stroke="currentcolor" stroke-width="2" />
+                            <path
+                                d="M8 8C10.2091 8 12 6.20914 12 4C12 1.79086 10.2091 0 8 0C5.79086 0 4 1.79086 4 4C4 6.20914 5.79086 8 8 8Z"
+                                fill="white" />
+                            <path
+                                d="M8 7C9.65685 7 11 5.65685 11 4C11 2.34315 9.65685 1 8 1C6.34315 1 5 2.34315 5 4C5 5.65685 6.34315 7 8 7Z"
+                                stroke="currentcolor" stroke-width="2" />
+                            <path
+                                d="M14 20C16.2091 20 18 18.2091 18 16C18 13.7909 16.2091 12 14 12C11.7909 12 10 13.7909 10 16C10 18.2091 11.7909 20 14 20Z"
+                                fill="white" />
+                            <path
+                                d="M14 19C15.6569 19 17 17.6569 17 16C17 14.3431 15.6569 13 14 13C12.3431 13 11 14.3431 11 16C11 17.6569 12.3431 19 14 19Z"
+                                stroke="currentcolor" stroke-width="2" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0">
+                                <rect width="22" height="20" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </symbol>
+                    <symbol viewBox="0 0 18 15" fill="none" id="svg-heart">
+                        <path
+                            d="M9 15L8.47059 14.7872C7.62353 14.2553 0 10 0 5.31915C0 2.34043 2.43529 0 5.4 0C6.77647 0 8.04706 0.531915 9 1.38298C9.95294 0.531915 11.2235 0 12.6 0C15.5647 0 18 2.34043 18 5.31915C18 10.1064 10.3765 14.3617 9.52941 14.7872L9 15ZM5.4 2.12766C3.6 2.12766 2.11765 3.51064 2.11765 5.31915C2.11765 7.97872 6.77647 11.2766 9 12.6596C11.3294 11.2766 15.8824 8.08511 15.8824 5.31915C15.8824 3.61702 14.4 2.12766 12.6 2.12766C11.5412 2.12766 10.4824 2.65957 9.84706 3.61702L9 4.89362L8.15294 3.61702C7.51765 2.65957 6.45882 2.12766 5.4 2.12766Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 23 21" id="svg-plain">
+                        <path
+                            d="M12.0573 17.4607L16.3099 1.58984C16.3483 1.44863 16.2979 1.29745 16.1809 1.20818C16.0646 1.11856 15.9052 1.10827 15.7782 1.18161L1.3145 9.53224C1.18495 9.60704 1.115 9.75307 1.13718 9.90042C1.14352 9.94625 1.15909 9.98922 1.18161 10.0282C1.23098 10.1137 1.31486 10.1777 1.4151 10.2003L8.0227 11.7114L11.3927 17.5484C11.4661 17.6754 11.6086 17.7466 11.7538 17.7265C11.8997 17.7076 12.0193 17.6025 12.0573 17.4607ZM8.57245 11.2112C8.52199 11.1238 8.43722 11.0612 8.33896 11.0391L2.47812 9.69888L15.3823 2.24867L11.5834 16.4263L8.57245 11.2112Z"
+                            fill="currentcolor" stroke="currentcolor" stroke-width="0.5" />
+                    </symbol>
+                    <symbol viewBox="0 0 16 16" fill="none" id="svg-plus-in-circle">
+                        <path
+                            d="M8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z"
+                            stroke="currentcolor" stroke-width="2" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7 9V11H9V9H11V7H9V5H7V7H5V9H7Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 18 18" id="svg-search">
+                        <path
+                            d="M13.2094 11.6195C14.0951 10.4099 14.6249 8.92413 14.6249 7.31346C14.6249 3.2815 11.3444 0.000976562 7.31245 0.000976562C3.28048 0.000976562 0 3.2815 0 7.31346C0 11.3454 3.28052 14.6259 7.31248 14.6259C8.92315 14.6259 10.409 14.0961 11.6186 13.2103L16.4092 18.0009L18 16.4101C18 16.41 13.2094 11.6195 13.2094 11.6195ZM7.31248 12.3759C4.52086 12.3759 2.25001 10.1051 2.25001 7.31346C2.25001 4.52184 4.52086 2.25099 7.31248 2.25099C10.1041 2.25099 12.375 4.52184 12.375 7.31346C12.375 10.1051 10.1041 12.3759 7.31248 12.3759Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 22 22" id="svg-star">
+                        <path
+                            d="M21.9427 8.43909C21.7986 7.99362 21.4035 7.67722 20.9361 7.63509L14.5862 7.05852L12.0754 1.18155C11.8902 0.750846 11.4686 0.472046 11.0001 0.472046C10.5316 0.472046 10.11 0.750846 9.92486 1.18256L7.41398 7.05852L1.06317 7.63509C0.59654 7.67822 0.202426 7.99362 0.0575701 8.43909C-0.0872853 8.88457 0.0464919 9.37318 0.399483 9.68119L5.19918 13.8906L3.78386 20.125C3.6803 20.5834 3.85822 21.0573 4.23857 21.3322C4.44301 21.4799 4.6822 21.5551 4.9234 21.5551C5.13137 21.5551 5.33766 21.4991 5.5228 21.3883L11.0001 18.1147L16.4754 21.3883C16.8761 21.6293 17.3811 21.6073 17.7606 21.3322C18.1412 21.0565 18.3189 20.5824 18.2154 20.125L16.8 13.8906L21.5997 9.68203C21.9527 9.37318 22.0875 8.88541 21.9427 8.43909Z"
+                            fill="currentcolor" />
+                    </symbol>
+                    <symbol viewBox="0 0 12 8" fill="none" id="svg-angle-down">
+                        <path
+                            d="M5.6707 7.10356L0.1357 1.55321C-0.0455414 1.37136 -0.0452368 1.07694 0.136638 0.895392C0.318488 0.713987 0.613073 0.714455 0.794455 0.89633L6.00002 6.11631L11.2056 0.896143C11.387 0.714292 11.6814 0.713823 11.8632 0.895205C11.9544 0.986212 12 1.10544 12 1.22466C12 1.34359 11.9547 1.46234 11.8642 1.55319L6.32932 7.10356C6.24218 7.19115 6.12358 7.2403 6.00002 7.2403C5.87646 7.2403 5.75801 7.19101 5.6707 7.10356Z"
+                            fill="currentColor" />
+                    </symbol>
+                </svg>
+            </div>
+            <!-- end svg-sprite -->
+        </footer>
+    </div>
+    <!-- end wrapper -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" referrerpolicy="no-referrer"></script>
+
+    <script src="js/slick.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+.service-in-city-block {
+    padding-top: 8rem;
+    margin: 0 0 7rem;
+    .h2 {
+        margin-bottom: 8rem;
+        .city-link {
+            display: inline-flex;
+            align-items: center;
+            &:hover {
+                border-bottom-color: transparent;
+                .city-link__text {
+                    border-bottom-color: transparent;
+                }
+            }
+            &__text {
+                border-bottom: 1px solid currentColor;
+                transition: all .3s;
+            }
+            .icon {
+                width: .5em;
+                height: .3em;
+                flex: none;
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+
+.service-in-city__list {
+    margin: 0 -1.5rem;
+}
+
+.service-in-city__list__item {
+    width: 25%;
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
+    @media(min-width: 901px) {
+        &:hover {
+            .service-in-city__list__content>img {
+                filter: grayscale(0)
+            }
+            .service-in-city__list__body {
+                &::before {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    &--descr {
+        .service-in-city__list__content {
+            &>img {
+                filter: grayscale(0)
+            }
+        }
+    }
+}
+
+.service-in-city__list__content {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 51rem;
+    &>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        transition: all .3s;
+        @media(min-width: 901px) {
+            filter: grayscale(1);
+        }
+    }
+}
+
+.service-in-city__list__body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    padding: 3.5rem 2rem;
+    color: #fff;
+    z-index: 1;
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: 20px;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to top, rgba(#000, .5), transparent);
+        opacity: 0;
+        transition: opacity .3s;
+        z-index: -1;
+    }
+}
+
+.badge {
+    display: inline-block;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    color: #000;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0.8rem 1.4rem .6rem;
+    font-weight: 700;
+}
+
+.link-text {
+    font-size: 2rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    .icon {
+        width: 2.8rem;
+        height: 1.4rem;
+        margin-left: 1rem;
+    }
+}
+
+.service-in-city__list__item__descr-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    padding: 3.5rem 2rem 3rem;
+    border-radius: 20px;
+    .h4 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+    }
+    p {
+        font-size: 1.6rem;
+    }
+    .descr-block__options {
+        li {
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+        }
+    }
+}

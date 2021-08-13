@@ -1,0 +1,126 @@
+.options-block {
+    margin: 7rem 0;
+}
+
+.options-block__content {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 6rem;
+}
+
+.options-block__content__left {
+    border: 1px solid var(--border-color);
+    border-radius: 100px;
+    width: calc(50% - 1.5rem);
+    padding: 0 2rem;
+    height: 7rem;
+}
+
+.options-block__city {
+    color: var(--red);
+    .icon {
+        width: 2.5rem;
+        height: 2rem;
+        margin-right: .5rem;
+    }
+    .city-name {
+        font-size: 2rem;
+    }
+}
+
+.choose-region {
+    font-size: 1.6rem;
+    color: var(--grey);
+    margin-right: 3rem;
+    &:hover {
+        color: var(--red);
+    }
+    .icon {
+        width: 1rem;
+        height: 1.2rem;
+        margin-left: 1rem;
+    }
+}
+
+.choose-region__text {
+    border-bottom: 1px solid currentColor;
+}
+
+.search-option {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 50%;
+    flex: none;
+    color: var(--grey);
+    background-color: var(--grey-bg);
+    .icon {
+        width: 50%;
+        height: 50%;
+    }
+    &:hover {
+        color: var(--red);
+    }
+}
+
+.options-block__content__btn {
+    border: 1px solid var(--border-color);
+    height: 7rem;
+    min-width: 7rem;
+    border-radius: 100px;
+    padding: 0 2rem;
+    .icon {
+        width: 2.3rem;
+        height: 2rem;
+        &+.btn__text {
+            margin-left: 1rem;
+        }
+    }
+    &:hover {
+        color: var(--red);
+    }
+    &:not(:last-child) {
+        margin-right: 4rem;
+    }
+}
+
+.options-block__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+    height: 35px;
+    margin: 40px auto;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 12px;
+    display: none;
+}
+
+.options-block__btn {
+    &--map {
+        margin-right: 5px;
+        padding-right: 15px;
+        border-right: 1px solid currentColor;
+        margin-right: 15px;
+        .icon {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &--filter {
+        .icon {
+            width: 15px;
+            height: 15px;
+            margin-left: 5px;
+        }
+    }
+    .icon {
+        display: inline-block;
+        vertical-align: middle;
+        color: #fff;
+    }
+}
