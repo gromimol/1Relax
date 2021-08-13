@@ -2042,7 +2042,10 @@ strong {
     padding: 4rem; }
 
   .related-slide {
-    width: 60rem; } }
+    width: 60rem; }
+
+  .container {
+    max-width: 1280px; } }
 @media (max-width: 1500px) {
   .point,
   .pagination-block {
